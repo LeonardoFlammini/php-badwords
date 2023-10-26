@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css' integrity='sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==' crossorigin='anonymous'/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PHP Badwords</title>
+</head>
+<body>
+  <div class="container my-5">
+    <h1 class="my-3" style="font-weight: bold;">Bad word</h1>
+    <form action="landing.php" method="GET">
+      <div class="mb-3">
+        <label for="bad-word" class="form-label">Parola da censurare</label>
+        <input type="text" class="form-control" id="bad-word" placeholder="Inserisci la parola" name="badWord">
+      </div>
+      <div class="mb-3">
+        <label for="paragraph" class="form-label">Paragrafo</label>
+        <textarea class="form-control" id="paragraph" name="paragraph" placeholder="Inserire paragrafo" style="height: 200px"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Invia</button>
+    </form>
+  </div>
+</body>
+</html>
